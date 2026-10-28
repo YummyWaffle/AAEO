@@ -1,0 +1,139 @@
+{
+  "source_project": "tlg_franky_reconstruct",
+  "source_project_version": "0.3.0",
+  "files": [
+    {
+      "source": "tlg_api/__init__.py",
+      "destination": "tlg_api/__init__.py",
+      "sha256": "7eb240a9bd465e61a85bcbbde9ad752478b7a050c8ece8da66d8c94c032ee333"
+    },
+    {
+      "source": "tlg_api/_bundle.py",
+      "destination": "tlg_api/_bundle.py",
+      "sha256": "705e59333864038ffa8a36939fdcf8b099202493ac7243d5af697d21b4a11a19"
+    },
+    {
+      "source": "tlg_api/_detect.py",
+      "destination": "tlg_api/_detect.py",
+      "sha256": "647f9954fc910941a1c27a3a21de986f05f022b2fe339efcf43547c4aa688722"
+    },
+    {
+      "source": "tlg_api/_io.py",
+      "destination": "tlg_api/_io.py",
+      "sha256": "f371a86240102944d6d401a4cb7bac07813d2b8dd8b182097ef7a2c1f01157ca"
+    },
+    {
+      "source": "tlg_api/_train.py",
+      "destination": "tlg_api/_train.py",
+      "sha256": "9da6a5a03749ed8459b466d890aa56f5f6e9bedbc47b369ad60d16c6c308aecc"
+    },
+    {
+      "source": "tlg_api/_viz.py",
+      "destination": "tlg_api/_viz.py",
+      "sha256": "3d21fec5ce6ff0d1af9fcba10b5793395d966f4f5e293e77725ea6d78c0f5f42"
+    },
+    {
+      "source": "tlg_api/algorithms/__init__.py",
+      "destination": "tlg_api/algorithms/__init__.py",
+      "sha256": "9a90c96c3d46cae9868b33e6d3cd1a22cfc452fc41c3586f2a5cb3420f6bb345"
+    },
+    {
+      "source": "tlg_api/algorithms/_dynamic.py",
+      "destination": "tlg_api/algorithms/_dynamic.py",
+      "sha256": "4386b5f45825d0c7e4ea5ff991833465b6fad6a954232a062fee0db5463c0292"
+    },
+    {
+      "source": "tlg_api/algorithms/_extractors/__init__.py",
+      "destination": "tlg_api/algorithms/_extractors/__init__.py",
+      "sha256": "f294b10e070d57c7582e0c2960f1503fc2a82ba547c7fced3cb0fa823c50659b"
+    },
+    {
+      "source": "tlg_api/algorithms/_extractors/_faiss.py",
+      "destination": "tlg_api/algorithms/_extractors/_faiss.py",
+      "sha256": "a50df4a76affef1b507899bbff2bbf019be015ab30c2c06c48a30c6b8e4261b4"
+    },
+    {
+      "source": "tlg_api/algorithms/_extractors/_lulc_stratified.py",
+      "destination": "tlg_api/algorithms/_extractors/_lulc_stratified.py",
+      "sha256": "2b6b8f4eab147ef59968393c7bf78c67d55d97b36318b54c2bf060fb1c35bf4a"
+    },
+    {
+      "source": "tlg_api/algorithms/_extractors/_mb_kmeans.py",
+      "destination": "tlg_api/algorithms/_extractors/_mb_kmeans.py",
+      "sha256": "a231d38992bc4fb363ad37ad02ec6ea5135147a288dbeb04350c0660e0635a27"
+    },
+    {
+      "source": "tlg_api/algorithms/_mergers/__init__.py",
+      "destination": "tlg_api/algorithms/_mergers/__init__.py",
+      "sha256": "b48e6e52806ae5fa80675eb2d6a23a852e347257498ebfb86601bc1bb425133e"
+    },
+    {
+      "source": "tlg_api/algorithms/_mergers/_noop.py",
+      "destination": "tlg_api/algorithms/_mergers/_noop.py",
+      "sha256": "7fdfb0b29e88767359237191bc497fc7f55cdbfa343b4406670e50e45ba407ad"
+    },
+    {
+      "source": "tlg_api/algorithms/_modelers/__init__.py",
+      "destination": "tlg_api/algorithms/_modelers/__init__.py",
+      "sha256": "fd40f36b9e521f991c9ee1448d4f5e31a220164b1f8320dac9f2ff4a7af35b69"
+    },
+    {
+      "source": "tlg_api/algorithms/_modelers/_gmm_bic.py",
+      "destination": "tlg_api/algorithms/_modelers/_gmm_bic.py",
+      "sha256": "f96ad12b305285cd7b890457950728bbccfe2fbe133f3d10af47997c16a1f9ae"
+    },
+    {
+      "source": "tlg_api/algorithms/_modelers/_gmm_bic_post.py",
+      "destination": "tlg_api/algorithms/_modelers/_gmm_bic_post.py",
+      "sha256": "cdf24a5e931e0863992c56ed144e4dea034bf079fda5f3d772c4cadc4caaf5c5"
+    },
+    {
+      "source": "tlg_api/algorithms/_modelers/_robust.py",
+      "destination": "tlg_api/algorithms/_modelers/_robust.py",
+      "sha256": "7982c05fe3b8ec443c165fc80801b02e4ee613bb73eda0a848b4c0b0a791de20"
+    },
+    {
+      "source": "tlg_api/algorithms/_registry.py",
+      "destination": "tlg_api/algorithms/_registry.py",
+      "sha256": "37ffd7d284eab273bec42f46cb8c0b67f2e5f270b5ba34556d0a4331786d05ca"
+    },
+    {
+      "source": "tlg_api/interfaces.py",
+      "destination": "tlg_api/interfaces.py",
+      "sha256": "c40eb4140877aa9d11c912ee2392a56e3fe0536979c5d2a251390c0648896da6"
+    },
+    {
+      "source": "tlg_core/__init__.py",
+      "destination": "tlg_core/__init__.py",
+      "sha256": "f9332a1255eb1036c49978166cc75cb5f9b7f5d418f5f9534f17313a68086787"
+    },
+    {
+      "source": "tlg_core/contracts.py",
+      "destination": "tlg_core/contracts.py",
+      "sha256": "45a9231532ee8f083abf36ec1a1ec08b93f557bef0e1d7cc5c7741a949e5dbb6"
+    },
+    {
+      "source": "tlg_core/protocols.py",
+      "destination": "tlg_core/protocols.py",
+      "sha256": "4d9241acf0f157e6d9f3938b9900d2d9b7d95b4e1905f07581374e0296dda25a"
+    },
+    {
+      "source": "tests/test_api_registry.py",
+      "destination": "tests/test_api_registry.py",
+      "sha256": "47c37c0b260b6ce33e64040a6f8330127b95c0bf80a69f80b17aa0ebc7936904"
+    },
+    {
+      "source": "tests/test_api_reconstruction.py",
+      "destination": "tests/test_api_reconstruction.py",
+      "sha256": "b97514c7daaf6483c2df71e2ae474e83b5295c6020230d46a260793ff68c085f"
+    },
+    {
+      "source": "tlg_api/RECONSTRUCTION.md",
+      "destination": "docs/API_DETAILS.md",
+      "sha256": "5e763d90fa3873a8560947c4a82f028bd91f6ff245009832df6b1551f1dd9045",
+      "distribution_sha256": "3b08754d12edc28d8b780a16a29b7c8346a9ce8dafe51cd0f957b9fe830052ae",
+      "adaptation": "AAEO API reference documentation."
+    }
+  ],
+  "hash_policy": "sha256 records original source hashes. All package and test files are byte-identical. The API document has a separate distribution_sha256."
+}

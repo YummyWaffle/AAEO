@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aaeo-tlg"
+version = "0.3.0"
+description = "AAEO: Attention Allocation in Earth Observation through observed-versus-geographically-expected surface-process discrepancy"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "scikit-learn>=1.3", "joblib", "GDAL"]
+
+[project.optional-dependencies]
+faiss = ["faiss-cpu"]
+viz = ["matplotlib", "pillow"]
+dev = ["pytest>=8", "wheel"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tlg_api", "tlg_api.*", "tlg_core", "tlg_core.*"]
+namespaces = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+cache_dir = ".work/pytest-cache"

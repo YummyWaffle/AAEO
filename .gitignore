@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.work/
+artifacts/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.venv/
+*.tif
+*.tiff
+*.pkg
+.DS_Store
+Thumbs.db
